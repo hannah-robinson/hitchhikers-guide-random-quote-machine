@@ -6,7 +6,7 @@ import QuoteGenerator from '../../containers/QuoteGenerator';
 const layout = () => (
   <main className={classes.Card} id="quote-box">
       <QuoteGenerator />
-      <Buttons />
+      {/* <Buttons /> */}
   </main>
 )
 

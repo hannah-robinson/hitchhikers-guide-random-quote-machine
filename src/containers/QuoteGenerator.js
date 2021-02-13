@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Aux from './../hoc/Aux';
 import Quote from './../components/Quote/Quote';
+import Buttons from './../components/Buttons/Buttons';
 
 const QUOTES = [
   {quote: "Time is an illusion. Lunchtime doubly so.",
@@ -71,11 +72,11 @@ const QUOTES = [
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
-  {quote: `"Did I do anything wrong today," he said, "or has the world always been like this and I've been too wrapped up in myself to notice?"`,
+  {quote: "Did I do anything wrong today or has the world always been like this and I've been too wrapped up in myself to notice?",
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
-  {quote: `Ford!" he said, "there's an infinite number of monkeys outside who want to talk to us about this script for Hamlet they've worked out.`,
+  {quote: "Ford! There's an infinite number of monkeys outside who want to talk to us about this script for Hamlet they've worked out.",
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
@@ -87,15 +88,27 @@ const QUOTES = [
 ];
 
 class QuoteGenerator extends Component {
-  
+  constructor(props) {
+    super(props);
+    this.state = {
+      randomIndex: Math.floor(Math.random() * QUOTES.length)
+    };
+    this.quoteUpdateHandler = this.quoteUpdateHandler.bind(this);
+  }
+  quoteUpdateHandler() {
+    this.setState({
+      randomIndex: Math.floor(Math.random() * QUOTES.length)
+    })};
+
   render () {
-    let randomIndex = Math.floor(Math.random() * QUOTES.length);
+    // let randomIndex = Math.floor(Math.random() * QUOTES.length);
     return (
       <Aux>
         <Quote 
-        quote={QUOTES[randomIndex].quote}
-        author={QUOTES[randomIndex].author}
+        quote={QUOTES[this.state.randomIndex].quote}
+        author={QUOTES[this.state.randomIndex].author}
         />
+        <Buttons clicked={this.quoteUpdateHandler}/>
       </Aux>
     );
   }
