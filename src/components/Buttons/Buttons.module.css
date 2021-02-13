@@ -1,0 +1,22 @@
+button {
+  font: inherit;
+  font-size: 1rem;
+  color: #000;
+  background: #ffffff;
+  height: 2.2rem;
+  border: none;
+  border-radius: 9px;
+  outline: none;
+  padding: 0.5rem 1.8rem;
+  box-shadow: 0 0.3rem rgba(65, 255, 0, 0.5);
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(40, 133, 9);
+}
+
+button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(65, 255, 0, 0.4);
+}
