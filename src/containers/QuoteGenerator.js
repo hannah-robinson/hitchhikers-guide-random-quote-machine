@@ -1,4 +1,8 @@
-const quotes = [
+import React, { Component } from 'react';
+import Aux from './../hoc/Aux';
+import Quote from './../components/Quote/Quote';
+
+const QUOTES = [
   {quote: "Time is an illusion. Lunchtime doubly so.",
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
@@ -81,3 +85,20 @@ const quotes = [
    source: "In an interview with Jack Ma (马云)"
   }
 ];
+
+class QuoteGenerator extends Component {
+  
+  render () {
+    let randomIndex = Math.floor(Math.random() * QUOTES.length);
+    return (
+      <Aux>
+        <Quote 
+        quote={QUOTES[randomIndex].quote}
+        author={QUOTES[randomIndex].author}
+        />
+      </Aux>
+    );
+  }
+}
+
+export default QuoteGenerator;

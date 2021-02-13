@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Buttons.module.css';
 import ShareButtons from './ShareButtons/ShareButtons';
 
-const Buttons = () => {
+const buttons = () => {
   return (
     <div className={classes.Buttons}>
       <ShareButtons />
@@ -11,4 +11,4 @@ const Buttons = () => {
   )
 }
 
-export default Buttons;
+export default buttons;
