@@ -95,13 +95,14 @@ class QuoteGenerator extends Component {
     };
     this.quoteUpdateHandler = this.quoteUpdateHandler.bind(this);
   }
+
   quoteUpdateHandler() {
     this.setState({
       randomIndex: Math.floor(Math.random() * QUOTES.length)
-    })};
+    })
+  }
 
   render () {
-    // let randomIndex = Math.floor(Math.random() * QUOTES.length);
     return (
       <Aux>
         <Quote 
@@ -110,8 +111,8 @@ class QuoteGenerator extends Component {
         />
         <Buttons clicked={this.quoteUpdateHandler}/>
       </Aux>
-    );
-  }
+    )
+  };
 }
 
 export default QuoteGenerator;

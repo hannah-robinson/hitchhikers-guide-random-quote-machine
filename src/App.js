@@ -1,13 +1,12 @@
 import React from 'react';
-import Layout from './components/Layout/Layout';
+import classes from './App.module.css';
+import QuoteGenerator from './containers/QuoteGenerator';
 
 function App() {
   return (
-    <div>
-      <Layout>
-        
-      </Layout>
-    </div>
+    <main className={classes.Card} id="quote-box">
+      <QuoteGenerator />
+   </main>
   );
 }
 
