@@ -39,7 +39,7 @@ const quotes = [
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
-  {quote: "This must be Thursday,' said Arthur to himself, sinking low over his beer. 'I never could get the hang of Thursdays.",
+  {quote: `"This must be Thursday," said Arthur to himself, sinking low over his beer. "I never could get the hang of Thursdays."`,
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
@@ -47,7 +47,7 @@ const quotes = [
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
-  {quote: "The Answer to the Great Question... Of Life, the Universe and Everything... Is... Forty-two,' said Deep Thought, with infinite majesty and calm.",
+  {quote: `"The Answer to the Great Question... Of Life, the Universe and Everything... Is... Forty-two," said Deep Thought, with infinite majesty and calm.`,
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
   },

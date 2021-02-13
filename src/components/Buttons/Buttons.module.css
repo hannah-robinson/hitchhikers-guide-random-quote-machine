@@ -1,3 +1,9 @@
+.Buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
 button {
   font: inherit;
   font-size: 1rem;
