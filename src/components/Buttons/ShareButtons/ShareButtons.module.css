@@ -3,3 +3,7 @@
   justify-content: space-around;
   width: 10rem;
 }
+
+.fa-twitter, .fa-copy {
+  font-size: 1.5rem;
+}

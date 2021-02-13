@@ -1,0 +1,10 @@
+.Text {
+  font-size: 2rem;
+}
+
+.Author {
+  margin-top: 15px;
+  font-size: 1.7rem;
+  font-weight: 300;
+  font-style: italic
+}
