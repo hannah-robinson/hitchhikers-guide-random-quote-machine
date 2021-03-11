@@ -109,7 +109,11 @@ class QuoteGenerator extends Component {
         quote={QUOTES[this.state.randomIndex].quote}
         author={QUOTES[this.state.randomIndex].author}
         />
-        <Buttons clicked={this.quoteUpdateHandler}/>
+        <Buttons
+        clicked={this.quoteUpdateHandler}
+        quote={QUOTES[this.state.randomIndex].quote}
+        author={QUOTES[this.state.randomIndex].author}
+        />
       </Aux>
     )
   };
