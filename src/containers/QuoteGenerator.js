@@ -94,12 +94,17 @@ class QuoteGenerator extends Component {
       randomIndex: Math.floor(Math.random() * QUOTES.length)
     };
     this.quoteUpdateHandler = this.quoteUpdateHandler.bind(this);
+    this.copyToClipboardHandler = this.copyToClipboardHandler.bind(this);
   }
-
+  
   quoteUpdateHandler() {
     this.setState({
       randomIndex: Math.floor(Math.random() * QUOTES.length)
     })
+  }
+
+  copyToClipboardHandler() {
+    navigator.clipboard.writeText(QUOTES[this.state.randomIndex].quote + " – " + QUOTES[this.state.randomIndex].author)
   }
 
   render () {
@@ -110,7 +115,8 @@ class QuoteGenerator extends Component {
         author={QUOTES[this.state.randomIndex].author}
         />
         <Buttons
-        clicked={this.quoteUpdateHandler}
+        update={this.quoteUpdateHandler}
+        copy={this.copyToClipboardHandler}
         quote={QUOTES[this.state.randomIndex].quote}
         author={QUOTES[this.state.randomIndex].author}
         />
