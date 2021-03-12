@@ -12,7 +12,7 @@ const QUOTES = [
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
-  {quote: "I'd far rather be happy than right any day",
+  {quote: "I'd far rather be happy than right any day.",
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
@@ -36,7 +36,7 @@ const QUOTES = [
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
-  {quote: "If there's anything more important than my ego around, I want it caught and shot now",
+  {quote: "If there's anything more important than my ego around, I want it caught and shot now.",
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
@@ -80,7 +80,7 @@ const QUOTES = [
    author: "Douglas Adams",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
-  {quote: "Hitchhiker's Guide is a book of philosophy",
+  {quote: "Hitchhiker's Guide is a book of philosophy.",
    author: "Elon Musk",
    book: "The Hitchhiker's Guide to the Galaxy",
    source: "In an interview with Jack Ma (马云)"

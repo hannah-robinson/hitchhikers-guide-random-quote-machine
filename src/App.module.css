@@ -1,8 +1,9 @@
 .Card {
-  background-color: rgba(44, 43, 43, 0.717);
+  /* background-color: rgb(29, 28, 28); */
+  background-color: #17161d;
   width: auto;
   max-width: 750px;
-  padding: 25px 30px;
+  padding: 50px 30px 25px 30px;
   border: solid rgba(65, 255, 0, 1);
   border-radius: 9px;
   box-shadow: 9px 9px 9px 9px rgba(65, 255, 0, 0.4);

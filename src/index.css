@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: #ffffff;
   text-align: center;
@@ -10,7 +10,5 @@ body {
   min-height: 100vh;
   display: grid;
   place-content: center;
-  /* background: linear-gradient(#2d2c2ced, #000000);  */
   background: #000 no-repeat center/cover url('./assets/space.jpg') ;
 }
-    
