@@ -18,3 +18,28 @@
   font-size: 2.3rem;
   color: rgba(65, 255, 0, 1);
 }
+
+@media (max-width: 640px) {
+  .Quote {
+    padding-bottom: .5rem;
+    width: 90%;
+    height: auto;
+  }
+  
+  .Text {
+    font-size: 1rem;
+  }
+  
+  .Author {
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .Punctuation {
+    font-size: 1rem;
+    color: rgba(65, 255, 0, 1);
+  }
+}

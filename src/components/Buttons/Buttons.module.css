@@ -29,6 +29,45 @@ button:active {
 
 .ShareButtons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 10rem;
+}
+
+@media (max-width: 640px) {
+  .Buttons {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%; 
+  }
+  
+  button {
+    font: inherit;
+    font-size: 1rem;
+    color: #17161d;
+    background: #ffffff;
+    height: 1.2rem;
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.3rem rgb(40, 133, 9);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: rgb(40, 133, 9);
+  }
+  
+  button:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(65, 255, 0, 0.4);
+  }
+  
+  .ShareButtons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }

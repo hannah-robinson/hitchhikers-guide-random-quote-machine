@@ -1,9 +1,0 @@
-.Card {
-  background-color: #1d1a21;
-  width: auto;
-  max-width: 750px;
-  padding: 50px 30px 25px 30px;
-  border: solid rgba(65, 255, 0, 1);
-  border-radius: 9px;
-  box-shadow: 9px 9px 9px 9px rgba(65, 255, 0, 0.4);
-}

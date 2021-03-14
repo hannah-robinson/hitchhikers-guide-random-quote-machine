@@ -12,3 +12,11 @@ body {
   place-content: center;
   background: #000 no-repeat center/cover url('./assets/space.jpg') ;
 }
+
+/* @media (max-width: 640px) {
+  body {
+    display: block;
+    max-height: 100vh;
+    max-width: 100%;
+  }
+} */

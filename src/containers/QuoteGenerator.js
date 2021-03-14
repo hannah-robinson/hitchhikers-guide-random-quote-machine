@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Aux from './../hoc/Aux';
+import classes from './QuoteGenerator.module.css';
 import Quote from './../components/Quote/Quote';
 import Buttons from './../components/Buttons/Buttons';
+
 
 const QUOTES = [
   {quote: "Time is an illusion. Lunchtime doubly so.",
@@ -109,7 +110,7 @@ class QuoteGenerator extends Component {
 
   render () {
     return (
-      <Aux>
+      <main className={classes.Card} id="quote-box">
         <Quote 
         quote={QUOTES[this.state.randomIndex].quote}
         author={QUOTES[this.state.randomIndex].author}
@@ -120,7 +121,7 @@ class QuoteGenerator extends Component {
         quote={QUOTES[this.state.randomIndex].quote}
         author={QUOTES[this.state.randomIndex].author}
         />
-      </Aux>
+      </main>
     )
   };
 }
