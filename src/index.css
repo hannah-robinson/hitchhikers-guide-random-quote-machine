@@ -10,13 +10,6 @@ body {
   min-height: 100vh;
   display: grid;
   place-content: center;
-  background: #000 no-repeat center/cover url('./assets/space.jpg') ;
+  background: #000 center/cover url('./assets/space.jpg') ;
 }
 
-/* @media (max-width: 640px) {
-  body {
-    display: block;
-    max-height: 100vh;
-    max-width: 100%;
-  }
-} */
