@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Buttons.module.css';
-import QuoteGenerator from '../../containers/QuoteGenerator';
 
 const buttons = (props) => {
   let tweet = "https://twitter.com/intent/tweet?text=" + `❝ ` + props.quote  + ` ❞` + " – " + props.author;
@@ -16,3 +15,5 @@ const buttons = (props) => {
 }
 
 export default buttons;
+
+

@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Quote.module.css';
-import QuoteGenerator from '../../containers/QuoteGenerator';
 
 const quote = (props) => {
   return (
