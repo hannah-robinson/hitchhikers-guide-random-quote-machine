@@ -1,0 +1,15 @@
+.sig {
+  margin-top: 40px;
+}
+.sig a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.glow {
+  background-color: rgba(65, 255, 0, 0.4);
+  /* width: auto; */
+  border-radius: 9px;
+  padding-left: .6rem;
+  padding-right: .6rem;
+}
