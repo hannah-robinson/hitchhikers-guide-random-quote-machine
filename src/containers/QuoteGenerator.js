@@ -10,19 +10,19 @@ const QUOTES = [
    book: "The Hitchhiker's Guide to the Galaxy"
   },
   {quote: "He felt that his whole life was some kind of dream and he sometimes wondered whose it was and whether they were enjoying it.",
-   author: " Douglas Adams ",
+   author: "~ Douglas Adams ~",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
   {quote: "I'd far rather be happy than right any day.",
-   author: "  Douglas Adams  ",
+   author: "Douglas Adams.",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
   {quote: "Isn't it enough to see that a garden is beautiful without having to believe that there are fairies at the bottom of it too?",
-   author: "   Douglas Adams   ",
+   author: "# Douglas Adams #",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
   {quote: "The ships hung in the sky in much the same way that bricks don't.",
-   author: "    Douglas Adams    ",
+   author: "- Douglas Adams -",
    book: "The Hitchhiker's Guide to the Galaxy"
   },
   // {quote: "Would it save you a lot of time if I just gave up and went mad now?",
