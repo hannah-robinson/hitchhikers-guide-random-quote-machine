@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hitchhikers-guide-random-quote-machine/static/css/main.60696ea7.chunk.css",
-    "main.js": "/hitchhikers-guide-random-quote-machine/static/js/main.67ce3018.chunk.js",
-    "main.js.map": "/hitchhikers-guide-random-quote-machine/static/js/main.67ce3018.chunk.js.map",
+    "main.js": "/hitchhikers-guide-random-quote-machine/static/js/main.dccd422c.chunk.js",
+    "main.js.map": "/hitchhikers-guide-random-quote-machine/static/js/main.dccd422c.chunk.js.map",
     "runtime-main.js": "/hitchhikers-guide-random-quote-machine/static/js/runtime-main.e4016caa.js",
     "runtime-main.js.map": "/hitchhikers-guide-random-quote-machine/static/js/runtime-main.e4016caa.js.map",
     "static/js/2.e184948f.chunk.js": "/hitchhikers-guide-random-quote-machine/static/js/2.e184948f.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.e4016caa.js",
     "static/js/2.e184948f.chunk.js",
     "static/css/main.60696ea7.chunk.css",
-    "static/js/main.67ce3018.chunk.js"
+    "static/js/main.dccd422c.chunk.js"
   ]
 }
