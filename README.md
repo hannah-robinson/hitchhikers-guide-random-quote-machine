@@ -29,7 +29,7 @@ If you click the first button (the one with the Twitter icon on it), a tweet con
 If you click the second button, the quote will be copied to your computer's clipboard ready for you to paste wherever you like.
 
 When you click the 'New Quote' button, a new quote will be randomly selected for you from the app's list of Hitchhiker's Guide quotes. Here is the code that randomly selects a quote and allows you to copy it to the clipboard:
-![Screenshot of a key piece od code from the app](https://github.com/hannah-robinson/hitchhikers-guide-random-quote-machine/blob/main/src/assets/screenshot-code-hitchhikers-guide.jpg)
+![Screenshot of a key piece od code from the app](https://github.com/hannah-robinson/hitchhikers-guide-random-quote-machine/blob/main/src/assets/screenshot-code-hitchhikers-guide.png)
 
 ## What I would do differently next time
 
