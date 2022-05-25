@@ -12,7 +12,7 @@ I chose Hitchhiker's Guide quotes because Douglas Adams is one of my favourite a
 
 ## See the live app
 
-A live version of the random quote machine can be found at: [hannah-robinson.github.io/hitchhikers-guide-random-quote-machine/](https://hannah-robinson.github.io/hitchhikers-guide-random-quote-machine/)
+A live version of the random quote machine can be found at: [hannah-robinson.github.io/hitchhikers-guide-random-quote-machine](https://hannah-robinson.github.io/hitchhikers-guide-random-quote-machine/)
 
 ## Technologies used
 
@@ -22,15 +22,15 @@ A live version of the random quote machine can be found at: [hannah-robinson.git
 - HTML5
 - Git & GitHub
 
-## How the app works
+## How the app works / What does it do?
 
-If you click the first button (the one with the Twitter icon on it), a tweet containing the quote will be pre-composed for you to send.
+If you click the first button (the one with the Twitter icon on it), a tweet containing the quote will be pre-composed ready for you to send. (You need to be logged in to Twitter to use this feature, of course.)
 
 If you click the second button, the quote will be copied to your computer's clipboard ready for you to paste wherever you like.
 
-When you click the 'New Quote' button, a new quote will be randomly selected from a list of Hitchhiker's Guide quotes. Here is the code that does this:
-![Screenshot of a key piece od code from the app](https://github.com/hannah-robinson/hitchhikers-guide-random-quote-machine/blob/main/src/assests/screenshot-code-hitchhikers-guide.jpg)
+When you click the 'New Quote' button, a new quote will be randomly selected for you from the app's list of Hitchhiker's Guide quotes. Here is the code that randomly selects a quote and allows you to copy it to the clipboard:
+![Screenshot of a key piece od code from the app](https://github.com/hannah-robinson/hitchhikers-guide-random-quote-machine/blob/main/src/assets/screenshot-code-hitchhikers-guide.jpg)
 
-## What I would do differently if I built this again
+## What I would do differently next time
 
-I wrote this app using class-based components. If I were to make a similar app now, I would use functional components. I would also add a tool tip to indicate to the user that they have successfully copied the quote to their clipboard. I would probably use Sass rather than CSS, and I would either create an API for the quotes data or separate them out into a data.json file. I would also improve the apps accessibility. It currently scores only 75% for accessibility on [Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fhannah-robinson.github.io%2Fhitchhikers-guide-random-quote-machine%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa).
+I wrote this app using class-based React components. If I were to make a similar app now, I would use functional React components. I would also add a tool tip to indicate to the user that they have successfully copied the quote to their clipboard. I would probably use Sass rather than CSS, and I would either create an API for the quote data or separate it out into its own data.json file. I would also improve the app's accessibility. (It currently scores 75% for accessibility on [Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fhannah-robinson.github.io%2Fhitchhikers-guide-random-quote-machine%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa).)
