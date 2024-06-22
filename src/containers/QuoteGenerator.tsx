@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import classes from './QuoteGenerator.module.css'
-import Quote from './../components/Quote/Quote'
-import Buttons from './../components/Buttons/Buttons'
+import Quote from '../components/Quote/Quote.tsx'
+import Buttons from '../components/Buttons/Buttons.tsx'
 
 const QUOTES = [
   {
