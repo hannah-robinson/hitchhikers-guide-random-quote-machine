@@ -1,7 +1,6 @@
-import React from 'react'
 import classes from './Quote.module.css'
 
-const quote = (props) => {
+const Quote: React.FC<{ quote: string; author: string }> = (props) => {
   return (
     <div className={classes.Quote}>
       <div id='text' className={classes.Text}>
@@ -17,4 +16,4 @@ const quote = (props) => {
   )
 }
 
-export default quote
+export default Quote

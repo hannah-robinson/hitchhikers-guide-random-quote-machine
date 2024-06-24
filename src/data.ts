@@ -1,9 +1,4 @@
-import { Component } from 'react'
-import classes from './QuoteGenerator.module.css'
-import Quote from '../components/Quote/Quote.tsx'
-import Buttons from '../components/Buttons/Buttons.tsx'
-
-const QUOTES = [
+export const QUOTES = [
   {
     quote: 'Time is an illusion. Lunchtime doubly so.',
     author: 'Douglas Adams',
@@ -110,47 +105,3 @@ const QUOTES = [
     book: "The Hitchhiker's Guide to the Galaxy",
   },
 ]
-
-class QuoteGenerator extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      randomIndex: Math.floor(Math.random() * QUOTES.length),
-    }
-    this.quoteUpdateHandler = this.quoteUpdateHandler.bind(this)
-    this.copyToClipboardHandler = this.copyToClipboardHandler.bind(this)
-  }
-
-  quoteUpdateHandler() {
-    this.setState({
-      randomIndex: Math.floor(Math.random() * QUOTES.length),
-    })
-  }
-
-  copyToClipboardHandler() {
-    navigator.clipboard.writeText(
-      QUOTES[this.state.randomIndex].quote +
-        ' – ' +
-        QUOTES[this.state.randomIndex].author
-    )
-  }
-
-  render() {
-    return (
-      <main className={classes.Card} id='quote-box'>
-        <Quote
-          quote={QUOTES[this.state.randomIndex].quote}
-          author={QUOTES[this.state.randomIndex].author}
-        />
-        <Buttons
-          update={this.quoteUpdateHandler}
-          copy={this.copyToClipboardHandler}
-          quote={QUOTES[this.state.randomIndex].quote}
-          author={QUOTES[this.state.randomIndex].author}
-        />
-      </main>
-    )
-  }
-}
-
-export default QuoteGenerator

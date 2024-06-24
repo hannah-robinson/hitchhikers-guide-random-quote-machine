@@ -1,14 +1,12 @@
-import React from 'react'
 import classes from './Buttons.module.css'
 
-const buttons = (props) => {
-  const tweet =
-    'https://twitter.com/intent/tweet?text=' +
-    `❝ ` +
-    props.quote +
-    ` ❞` +
-    ' – ' +
-    props.author
+const Buttons: React.FC<{
+  quote: string
+  author: string
+  update: () => void
+  copy: () => void
+}> = (props) => {
+  const tweet = `https://twitter.com/intent/tweet?text=❝${props.quote} – ${props.author}"`
   return (
     <div className={classes.Buttons}>
       <div className={classes.ShareButtons}>
@@ -28,4 +26,4 @@ const buttons = (props) => {
   )
 }
 
-export default buttons
+export default Buttons
