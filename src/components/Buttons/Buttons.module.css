@@ -27,6 +27,10 @@ button:active {
   box-shadow: 0 0.1rem rgba(65, 255, 0, 0.4);
 }
 
+a {
+  text-decoration: none;
+}
+
 .ShareButtons {
   display: flex;
   justify-content: space-between;
@@ -52,6 +56,9 @@ button:active {
     border-radius: 9px;
     outline: none;
     padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 0.3rem rgb(40, 133, 9);
     cursor: pointer;
   }
