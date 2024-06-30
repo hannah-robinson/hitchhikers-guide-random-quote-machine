@@ -38,9 +38,9 @@ button:active {
     margin-top: 15px;
     display: flex;
     flex-direction: column-reverse;
-    width: 90%; 
+    width: 90%;
   }
-  
+
   button {
     font: inherit;
     font-size: 1rem;
@@ -51,20 +51,20 @@ button:active {
     border: none;
     border-radius: 9px;
     outline: none;
-    padding: 1rem,1rem;
+    padding: 1rem 1rem;
     box-shadow: 0 0.3rem rgb(40, 133, 9);
     cursor: pointer;
   }
-  
+
   button:hover {
     color: rgb(40, 133, 9);
   }
-  
+
   button:active {
     transform: translate(0, 0.3rem);
     box-shadow: 0 0.1rem rgba(65, 255, 0, 0.4);
   }
-  
+
   .ShareButtons {
     display: flex;
     flex-direction: column;
