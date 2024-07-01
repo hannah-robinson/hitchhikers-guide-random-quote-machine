@@ -4,7 +4,7 @@
 
 This fully-responsive React app shows random quotes from Douglas Adams's "The Hitchhiker's Guide to the Galaxy".
 
-I built this app as an assessed project for freeCodeCamp's Front End Libraries certification. I designed the project to meet the requirements of freeCodeCamp's acceptance criteria. The user stories can be seen here: [Build a Random Quote Machine](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine)
+I built this app as an assessed project for freeCodeCamp's Front End Libraries certification in 2021. (In 2024 I updated it from JavaScript to TypeScript.) I designed the project to meet the requirements of freeCodeCamp's acceptance criteria. The user stories can be seen here: [Build a Random Quote Machine](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine).
 
 I chose Hitchhiker's Guide quotes because Douglas Adams is one of my favourite authors. My inspiration for the design came from Douglas Adams's stories.
 
