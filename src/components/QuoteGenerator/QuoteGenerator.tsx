@@ -19,9 +19,6 @@ const QuoteGenerator = () => {
     )
   }
 
-  // this.quoteUpdateHandler = this.quoteUpdateHandler.bind(this)
-  // this.copyToClipboardHandler = this.copyToClipboardHandler.bind(this)
-
   return (
     <main className={classes.Card} id='quote-box'>
       <Quote
